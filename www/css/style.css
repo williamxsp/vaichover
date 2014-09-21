@@ -1,0 +1,44 @@
+/* Empty. Add your own CSS if you like */
+
+body .pane{
+	background: #462443;
+	color: white;
+	font-family: 'Open Sans';
+	text-align: center;
+	padding: 10px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	color:white;
+	font-family: 'Open Sans';
+	font-weight: bold;
+}
+
+div.weather
+{
+	
+	position:relative;
+}
+
+img{
+	
+	margin-top: 50px;
+	width:80%;
+	-webkit-animation:default 10s infinite;
+	-webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+	-moz-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+	-o-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+	transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); /* easeInOutCubic */
+	position: absolute;
+}
+
+
+@-webkit-keyframes default{
+
+	0%{	top:0;left: 0%;}
+	25%{top:5px;left:10%;}
+	50%{top:0;left:20%;}
+	75%{top:7px;left:10%;}
+	100%{top:0;left:0%;}
+}
